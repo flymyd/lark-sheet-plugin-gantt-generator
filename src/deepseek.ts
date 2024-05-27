@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const deepSeekChat = (messages: any) => {
-  const DEEPSEEK_API_KEY = '';
+  const DEEPSEEK_API_KEY = 'TO_BE_FILLED';
   const ENDPOINT_URL = 'https://api.deepseek.com/chat/completions';
   const headers = {
     'Content-Type': 'application/json',
